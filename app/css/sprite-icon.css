@@ -1,0 +1,47 @@
+.fb-icon:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -10px -10px;
+}
+
+.fb-icon {
+    width: 47px;
+    height: 47px;
+    background-position: -77px -10px;
+}
+
+.git-icon:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -10px -77px;
+}
+
+.git-icon {
+    width: 47px;
+    height: 47px;
+    background-position: -77px -77px;
+}
+
+.tw-icon:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -144px -10px;
+}
+
+.tw-icon {
+    width: 47px;
+    height: 47px;
+    background-position: -144px -77px;
+}
+
+.vk-icon:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -10px -144px;
+}
+
+.vk-icon {
+    width: 47px;
+    height: 47px;
+    background-position: -77px -144px;
+}
