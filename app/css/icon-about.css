@@ -1,0 +1,23 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon-bag {
+    width: 36px;
+    height: 34px;
+    background-position: -20px -20px;
+}
+
+.sprite-icon-diplom {
+    width: 26px;
+    height: 32px;
+    background-position: -20px -94px;
+}
+
+.sprite-icon-edc {
+    width: 42px;
+    height: 23px;
+    background-position: -20px -166px;
+}

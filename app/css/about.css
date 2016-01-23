@@ -48,10 +48,12 @@
 
 .data-item-dsrpt{
 	max-width: 238px;
+	font-family: 'fira_book';
 	font-size: 15px;
+	line-height: 20px;
 	overflow: hidden;
 	margin-left: 20px;
-	line-height: 20px;
+	color: #606972;
 }
 
 .data-item-label,
@@ -63,6 +65,7 @@
 	font-family: 'fira_medium';
 	font-size: 17px;
 	line-height: 22px;
+	color: #4a545d;
 }
 
 
@@ -75,39 +78,55 @@
 	font-size: 14px;
 	line-height: 20px;
 	text-align: center;
-	padding: 0 11px;
+	padding: 0 10px;
 	border-radius: 5px;
 	margin-bottom: 8px;
 	margin-right: 8px;
 }
 
 .section-item-about{
+	position: relative;
 	margin-bottom: 30px;
 	padding-right:30px;
 	padding-left: 125px;
-	background: url(../images/about/icon-bag.png) 58px center no-repeat;
+}
+
+.section-item-about:before{
+	content: "";
+	display: inline-block;
+	text-align: center;
+	width: 45px;
+	height: 40px;
+	position: absolute;
+	left: 50px;
+	top: 50%;
+	margin-top: -23px;
+	background: url(../images/about/spritesheet.png) -15px -18px no-repeat;
 }
 
 .section-item-about:last-child{
 	margin-bottom: 0;
 }
 
-.section-item-about.educ-icon{
-	background: url('../images/about/icon-edc.png') 53px center no-repeat;
+.section-item-about.educ-icon:before{
+	background: url(../images/about/spritesheet.png) -18px -158px no-repeat;
 }
 
-.section-item-about.diplom-icon{
-	background: url('../images/about/icon-diplom.png') 65px center no-repeat;
+.section-item-about.diplom-icon:before{
+	background: url(../images/about/spritesheet.png) -8px -90px no-repeat;
 }
 
 .section-about-title{
 	font-family: 'fira_book';
 	font-size: 17px;
 	line-height: 21px;
+	color: #6b747c;
+	margin-bottom: 5px;
 }
 
 .section-about-year{
 	font-family: 'fira_light';
 	font-size: 15px;
 	line-height: 18px;
+	color: #818990;
 }

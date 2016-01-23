@@ -2,9 +2,9 @@
 <html lang="ru-RU">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-	<meta name="viewport" content="width=1230, initial-scale=1">
-	<title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=1230">
+	<title>Обратная связь | Вова Писанный</title>
 	<!-- seo -->
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -14,9 +14,12 @@
 	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/feedback.css">
 	<link rel="stylesheet" href="../css/sprite-icon.css">
-	<link rel="icon" type="" href="">
+	<link rel="stylesheet" href="../css/fonts.css">
+	<link rel="icon" type="image/png" href="../favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-touch-icon-60x60.png">
+
 	<!-- js -->
-	<script src=""></script>
+	<script src="../js/modernizr-custom.js"></script>
 
 </head>
 
@@ -27,7 +30,7 @@
 
 <!-- ========= wrapper ========== -->
 <div class="wrapper">
-		<header class="header">
+	<header class="header">
 		<div class="container container-header clearfix">
 			<div class="header-logo">
 				<a href="" class="header-logo-link">
@@ -61,6 +64,121 @@
 			</div>
 		</div>
 	</header>
+	<main class="main-content">
+		<div class="container clearfix">
+			<aside class="aside-left">
+				<nav class="navigation-left">
+					<ul class="navigation-left-list">
+						<li class="navigation-left-item">
+							<a href="/" class="navigation-left-link">
+								Обо мне
+							</a>
+						</li>
+						<li class="navigation-left-item">
+							<a href="portfolio.html" class="navigation-left-link">
+								Мои работы
+							</a>
+						</li>
+						<li class="navigation-left-item active">
+							<a href="#" class="navigation-left-link">
+								Связаться со мной
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="adress-contact">
+					<ul class="nav-contact-list">
+						<li class="nav-contact-title">
+							<h3 class="nav-contact-head">
+								Контакты
+							</h3>
+						</li>
+						<li class="nav-contact-item nav-mail">
+							<a href="mailto:vladimir.pisanniy@gmail.com" class="nav-contact-link ">
+								vladimir.pisanniy
+							</a>
+						</li>
+						<li class="nav-contact-item nav-tel">
+							<a href="tel:+79067605574" class="nav-contact-link">
+								+79067605574
+							</a>
+						</li>
+						<li class="nav-contact-item nav-skype">
+							<a href="skype:pisanniy_v" class="nav-contact-link">
+								pisanniy_v
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+			<section class="section-content">
+				<div class="section-wrapp">
+					<div class="section-form">
+						<div class="section-form-header">
+							<div class="section-form-title">
+								<h2 class="section-title-head title-sendme">
+									У Вас интересный проект ? Напишите мне
+								</h2>
+							</div>
+						</div>
+						<div class="section-form-wrapp">
+							<form action="/" method="get" class="form-feedback">
+								<div class="section-form-block clearfix">
+									<div class="section-form-input left">
+										<div class="section-block-title">
+											<label for="input-area-name" class="label-section-input">
+												Имя
+											</label>
+										</div>
+										<div class="section-input-area">
+											<input type="text" class="input-area" id="input-area-name" placeholder="Как к вам обращаться">
+										</div>
+									</div>
+									<div class="section-form-input right">
+										<div class="section-block-title">
+											<label for="input-area-mail" class="label-section-input">
+												Email
+											</label>
+										</div>
+										<div class="section-input-area">
+											<input type="email" class="input-area" id="input-area-mail" placeholder="Куда мне писать">
+										</div>
+									</div>
+								</div>
+								<div class="section-form-block">
+									<div class="section-block-title">
+										<label for="textarea-block">
+											Сообщение
+										</label>
+									</div>
+									<textarea class="textarea-block" name="" id="textarea-block" placeholder="Кратко в чем суть"></textarea>
+								</div>
+								<div class="section-form-block clearfix">
+									<div class="section-block-title">
+										Введите код указанный на картинке
+									</div>
+									<div class="section-form-captcha captcha-img">
+										
+									</div>
+									<div class="section-input-area captcha-enter">
+										<input type="text" class="input-area input-captcha" id="input-captcha" placeholder="">
+									</div>
+								</div>
+								<div class="section-form-button clearfix">
+									<div class="section-button left">
+										<input type="submit" value="Отправить" class="button-input button-submit">
+									</div>
+									<div class="section-button right">
+										<input type="reset" value="Очистить" class="button-input button-reset">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
 </div>
 
 <footer class="footer">
@@ -69,7 +187,7 @@
 			<a href="#" class="footer-lock-link"></a>
 		</div>
 		<div class="footer-text">
-			&copy;Это мой сайт, пожалуйста не копируйте и не воруйте его
+			&copy; Это мой сайт, пожалуйста не копируйте и не воруйте его
 		</div>
 	</div>
 </footer>

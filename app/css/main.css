@@ -42,7 +42,23 @@ ul{
 	margin: 0 auto;
 }
 
+h1,
+h2,
+h3{
+	padding: 0;
+	margin: 0;
+	font-family: 'fira_book';
+}
 
+h2{
+	font-size: 27px;
+	line-height: 31px;
+}
+
+h3{
+	font-size: 21px;
+	line-height: 25px;
+}
 
 /*========== end main style ===========*/
 
@@ -70,6 +86,10 @@ ul{
 .header-logo{
 	float: left;
 	margin-top: 40px;
+}
+
+.header-logo-link{
+	display: block;
 }
 
 .header-logo-text{
@@ -181,11 +201,15 @@ ul{
 }
 
 .nav-contact-title{
+	background: #3ba8c0;
+	padding: 14px 20px 10px;
+}
+
+.nav-contact-head{
 	font-size: 21px;
 	line-height: 25px;
 	color: #fff;
-	background: #3ba8c0;
-	padding: 14px 20px 10px;
+	font-family: 'fira_light';
 }
 
 .nav-contact-item{
@@ -238,12 +262,14 @@ ul{
 }
 
 .section-title{
-    font-size: 27px;
-    line-height: 30px;
-    color: #3ba8c0;
     border-bottom: 2px #3ba8c0 solid;
     padding: 15px 23px;
     display: inline-block;
+}
+
+.section-title-head{
+	color: #3ba8c0;
+	font-family: 'fira_light';
 }
 
 
@@ -286,6 +312,6 @@ ul{
 	color: #555f67;
 	font-size: 13px;
 	line-height: 77px;
-	font-family: ;
+	font-family: 'fira_light';
 }
 
