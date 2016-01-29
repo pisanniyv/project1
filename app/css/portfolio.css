@@ -7,18 +7,18 @@
 }
 
 .section-portfolio-preview{
-	margin: 25px 0 25px;
+	margin-top: 25px;
 	padding-bottom: 25px;
-	margin-left: -15px;
+	margin-left: -5px;
 }
 
 .section-portfolio-item{
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
-	width: 184px;
-	margin-left: 30px;
-	margin-bottom: 40px;
+	width: 181px;
+	margin-left: 26px;
+	margin-bottom: 44px;
 	position: relative;
 }
 
@@ -78,6 +78,10 @@
 	position: relative;
 }
 
+.section-img-link{
+	display: block;
+}
+
 .section-portfolio-pic{
 	background-size: cover
 }
@@ -97,13 +101,15 @@
 	line-height: 18px;
 	font-family: 'fira_light';
 	color: #4a545d;
+	 word-wrap: break-word;
+    box-sizing: border-box;
 }
 
 .add-img{
 	border: 2px dashed #3ba8c0;
 	border-radius: 5px;
-	height: 124px;
-	background: url(../images/portfolio/add-pic.png) center 38px no-repeat;
+	height: 125px;
+	background: url(../images/portfolio/add-pic.png) center 32px no-repeat;
 }
 
 .add-link{
@@ -117,7 +123,7 @@
 	position: absolute;
 	text-align: center;
 	width: 100%;
-	margin-top: 80px;
+	margin-top: 70px;
 	font-size: 13px;
 	line-height: 17px;
 	color: #67bccf;

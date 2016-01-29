@@ -6,12 +6,16 @@
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	padding-bottom: 45px;
+	padding-bottom: 42px;
 	margin-bottom: 25px;
 }
 
+.section-item-nomarge{
+	margin-bottom: 	0;
+}
+
 .section-item-content{
-	padding-top: 25px;
+	margin-top: 20px;
 }
 
 .section-user{
@@ -26,7 +30,8 @@
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	border: 4px solid #3ba8c0;
-	margin-left: 55px;
+	margin-left: 53px;
+	margin-top: 12px;
 }
 
 .section-user-img{
@@ -35,7 +40,7 @@
 
 .section-item-data{
 	float: right;
-	width: 410px;
+	margin-right: 14px;
 }
 
 .data-item{
@@ -47,7 +52,7 @@
 }
 
 .data-item-dsrpt{
-	max-width: 238px;
+	max-width: 235px;
 	font-family: 'fira_book';
 	font-size: 15px;
 	line-height: 20px;
@@ -71,22 +76,23 @@
 
 .data-skils-item{
 	display: inline-block;
-	min-width: 40px;
-	height: 20px;
-	background: linear-gradient(to bottom, #3ba8c0 50%, #2e8ca2  51%);
-	color: #fff;
-	font-size: 14px;
-	line-height: 20px;
-	text-align: center;
-	padding: 0 10px;
-	border-radius: 5px;
-	margin-bottom: 8px;
-	margin-right: 8px;
+    min-width: 32px;
+    height: 20px;
+    background: linear-gradient(to bottom, #3ba8c0 50%, #2e8ca2 51%);
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 7px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    margin-right: 7px;
 }
+
 
 .section-item-about{
 	position: relative;
-	margin-bottom: 30px;
+	margin-bottom: 16px;
 	padding-right:30px;
 	padding-left: 125px;
 }
@@ -101,7 +107,7 @@
 	left: 50px;
 	top: 50%;
 	margin-top: -23px;
-	background: url(../images/about/spritesheet.png) -15px -18px no-repeat;
+	background: url(../images/about/spritesheet.png) -13px -15px no-repeat;
 }
 
 .section-item-about:last-child{

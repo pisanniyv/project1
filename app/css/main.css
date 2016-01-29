@@ -104,7 +104,7 @@ h3{
 
 .header-social-item{
 	display: inline-block;
-	margin-left: 24px;
+	margin-left: 19px;
 }
 
 .header-social-item:first-child{
@@ -183,7 +183,7 @@ h3{
 	display: block;
 	text-decoration: none;
 	color: #959aa8;
-	padding: 23px 20px 23px 20px;
+	padding: 25px 20px 23px 20px;
 	font-family: 'fira_book';
 	font-size: 21px;
 	line-height: 24px;
@@ -193,7 +193,7 @@ h3{
 	color: #3ba8c0;
 }
 
-.nav-contact-list{
+.adress-contact{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -202,7 +202,7 @@ h3{
 
 .nav-contact-title{
 	background: #3ba8c0;
-	padding: 14px 20px 10px;
+	padding: 8px 20px 7px;
 }
 
 .nav-contact-head{
@@ -221,7 +221,7 @@ h3{
 	font-size: 17px;
 	line-height: 20px;
 	color: #fff;
-	padding: 14px 10px 14px 83px;
+	padding: 10px 10px 10px 83px;
 	text-decoration: none;
 }
 
@@ -230,7 +230,7 @@ h3{
 }
 
 .nav-mail{
-	background: url(../images/main-img/mail-icon.png) 40px center no-repeat;
+	background: url(../images/main-img/mail-icon.png) 41px center no-repeat;
 }
 
 .nav-contact-list .nav-tel{
@@ -238,7 +238,7 @@ h3{
 }
 
 .nav-tel{
-	background: url(../images/main-img/tell-icon.png) 40px center no-repeat;
+	background: url(../images/main-img/tell-icon.png) 43px center no-repeat;
 }
 
 .nav-contact-list .nav-skype{
@@ -246,7 +246,7 @@ h3{
 }
 
 .nav-skype{
-	background: url(../images/main-img/skype-icon.png) 40px center no-repeat;
+	background: url(../images/main-img/skype-icon.png) 44px center no-repeat;
 }
 
 .nav-contact-link:hover{
@@ -263,8 +263,11 @@ h3{
 
 .section-title{
     border-bottom: 2px #3ba8c0 solid;
-    padding: 15px 23px;
-    display: inline-block;
+    padding: 18px 26px;
+	display: inline-block;
+	word-wrap: break-word;
+    box-sizing: border-box;
+    min-width: 150px;
 }
 
 .section-title-head{
@@ -289,12 +292,13 @@ h3{
 }
 
 .footer .container{
-	height: 77px;
+	min-height: 77px;
 	position: relative;
 	text-align: center;
+	word-wrapp: break-word;
 }
 
-.footer-lock-link{
+.container .footer-lock-link{
 	display: block;
 	height: 32px;
 	width: 20px;
@@ -309,9 +313,11 @@ h3{
 }
 
 .footer-text{
+	margin: 0 auto;
 	color: #555f67;
 	font-size: 13px;
-	line-height: 77px;
+	line-height: 17px;
 	font-family: 'fira_light';
+	padding: 31px;
 }
 

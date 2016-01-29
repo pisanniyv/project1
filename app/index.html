@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=1230">
-	<title>Document</title>
+	<title>Мой сайт | Владимир Писанный</title>
 	<!-- seo -->
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -19,8 +19,11 @@
 	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon/apple-touch-icon-60x60.png">
 	<!-- js -->
-	<script src="js/modernizr-custom.js"></script>
-
+	<script src="js/modernizr-custom.js"></script>	
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
 </head>
 
 <body>
@@ -34,7 +37,7 @@
 			<div class="container container-header clearfix">
 				<div class="header-logo">
 					<h1 class="header-logo-title">
-						<a href="" class="header-logo-link">
+						<a href="#" class="header-logo-link">
 							<img src="./images/main-img/logo-head.png" alt="Логотип" class="header-logo-img">
 						</a>
 						<span class="header-logo-text">От мыслителя к создателю !!!</span>
@@ -43,22 +46,22 @@
 				<div class="header-social">
 					<ul class="header-social-list">
 						<li class="header-social-item">
-							<a href="#" class="header-social-link vk-icon">
+							<a href="https://vk.com/v.pisannyi" target="_blank" class="header-social-link vk-icon">
 								vkontakte
 							</a>
 						</li>
 						<li class="header-social-item">
-							<a href="#" class="header-social-link tw-icon">
+							<a href="https://twitter.com/pisanniy_v" target="_blank" class="header-social-link tw-icon">
 								twitter
 							</a>
 						</li>
 						<li class="header-social-item">
-							<a href="#" class="header-social-link fb-icon">
+							<a href="https://www.facebook.com/profile.php?id=100001533922866" target="_blank" class="header-social-link fb-icon">
 								facebook
 							</a>
 						</li>
 						<li class="header-social-item">
-							<a href="#" class="header-social-link git-icon">
+							<a href="https://github.com/pisanniyv" target="_blank" class="header-social-link git-icon">
 								github
 							</a>
 						</li>
@@ -89,12 +92,12 @@
 						</ul>
 					</nav>
 					<div class="adress-contact">
+						<div class="nav-contact-title">
+							<h3 class="nav-contact-head">
+								Контакты
+							</h3>
+						</div>
 						<ul class="nav-contact-list">
-							<li class="nav-contact-title">
-								<h3 class="nav-contact-head">
-									Контакты
-								</h3>
-							</li>
 							<li class="nav-contact-item nav-mail">
 								<a href="mailto:vladimir.pisanniy@gmail.com" class="nav-contact-link ">
 									vladimir.pisanniy
@@ -164,7 +167,7 @@
 											</li>
 											<li class="data-item clearfix">
 												<div class="data-item-label">
-													Мои навыки:
+													Ключевые навыки:
 												</div>
 												<div class="data-item-dsrpt">
 													<ul class="data-scils-list">
@@ -215,7 +218,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="section-item">
+							<li class="section-item section-item-nomarge">
 								<div class="section-title">
 									<h2 class="section-title-head">
 										Образование
@@ -268,5 +271,9 @@
 		
 
 <!-- ========= js script ========= -->
+<script src="bower/jquery/jquery.min.js"></script>
+<script src="bower/placeholder.js/js/jquery.placeholder.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 </html>
