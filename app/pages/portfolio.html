@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="../bower/normalize-css/normalize.css">
 	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/portfolio.css">
+	<link rel="stylesheet" href="../css/popup.css">
 	<link rel="stylesheet" href="../css/sprite-icon.css">
 	<link rel="stylesheet" href="../css/fonts.css">
 	<link rel="icon" type="image/png" href="../favicon/favicon-32x32.png" sizes="32x32">
@@ -198,7 +199,7 @@
 										</div>
 									</li>
 									<li class="section-portfolio-item add-img">
-										<a href="#" class="section-portfolio-link add-link">
+										<a href="#" id="show-popup" class="section-portfolio-link add-link">
 											<span class="section-portfolio-text add-img-text">
 												Добавить проект
 											</span>
@@ -209,6 +210,60 @@
 						</div>
 					</div>
 				</section>
+				<!-- ===== modal popup ===== -->
+				<div id="add-project" class="project-popup" style="display: none;">
+					<div class="add-project-wrapp">
+						<div class="add-project-header">
+							<div class="add-header-title">
+								Добавление проекта
+							</div>
+							<div class="add-header-close">
+								<a href="#" class="add-close-link b-close">
+									Закрыть
+								</a>
+							</div>
+						</div>
+						<div class="form-wrapp">
+							<form action="" method="get" id="add-project-form">
+								<div class="add-project-content">
+									<label for="name-project" class="add-title-label">
+										Название проекта
+									</label>
+									<input type="text" id="name-project" class="project-input" placeholder="Введите название">
+								</div>
+								<div class="add-project-content">
+									<label for="img-project" class="add-title-label">
+										Картинка проекта
+									</label>
+									<label for="img-project" id="label-file" class="project-input project-input-file">
+										<span id="project-file-name" class="project-file-name">
+											Загрузите изображение
+										</span>
+										<span class="form-file-img">
+											<img src="../images/portfolio/form-file-img.png" alt="Загрузить файл" class="add-file-img">
+										</span>
+										<input type="file" id="img-project" class="project-input-img" placeholder="Загрузите изображение" onchange="getName(this.value);">	
+									</label>
+								</div>
+								<div class="add-project-content">
+									<label for="add-url-link" class="add-title-label">
+										URL проекта
+									</label>
+									<input type="text" id="add-url-link" class="project-input" placeholder="Добавьте ссылку">
+								</div>
+								<div class="add-project-content">
+									<label for="add-textarea" class="add-title-label">
+										Описание
+									</label>
+									<textarea name="" id="add-textarea" class="project-input project-textarea" placeholder="Пара слов о вашем проекте"></textarea>
+								</div>
+								<div class="add-project-submit">
+									<input type="submit" value="Добавить" class="add-submit-btn">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
 			</div>
 		</main>
 	</div>
@@ -225,9 +280,19 @@
 	</footer>
 	
 
+
+
+
+
+
+
+
+
+
 <!-- ========= js script ========= -->
 <script src="../bower/jquery/jquery.min.js"></script>
 <script src="../bower/placeholder.js/js/jquery.placeholder.js"></script>
+<script src="../bower/bPopup/jquery.bpopup.min.js"></script>
 <script src="../js/main.js"></script>
 
 </body>

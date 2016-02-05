@@ -5,7 +5,8 @@
     "normalize-css": "normalize.css#~3.0.3",
     "modernizr": "3.1.0",
     "html5shiv": "~3.7.3",
-    "placeholder.js": "*"
+    "placeholder.js": "*",
+    "bPopup": "bpopup#~0.11.0"
   },
   "devDependencies": {
     "html5shiv": "~3.7.3"

@@ -70,10 +70,10 @@
 	box-sizing: border-box;
 }
 
-::-webkit-input-placeholder {color:#48cbe8; font-size: 14px; padding-top: 4px;}
-::-moz-placeholder          {color:#48cbe8; font-size: 14px; padding-top: 4px;}/* Firefox 19+ */
-:-moz-placeholder           {color:#48cbe8; font-size: 14px; padding-top: 4px;}/* Firefox 18- */
-:-ms-input-placeholder      {color:#48cbe8; font-size: 14px; padding-top: 4px;}
+::-webkit-input-placeholder {color:#48cbe8; font-size: 13px; padding-top: 4px;}
+::-moz-placeholder          {color:#48cbe8; font-size: 13px; padding-top: 4px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#48cbe8; font-size: 13px; padding-top: 4px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#48cbe8; font-size: 13px; padding-top: 4px;}
 
 :focus::-webkit-input-placeholder {color: transparent}
 :focus::-moz-placeholder          {color: transparent}

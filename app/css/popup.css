@@ -1,0 +1,181 @@
+.project-popup{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+}
+
+.project-popup:before{
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.add-project-wrapp{
+	width: 365px;
+	background: #eff3f7;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	text-align: left;
+}
+
+.add-project-header{
+	background: #48cbe8;
+	height: 44px;
+	line-height: 46px;
+	margin-bottom: 12px;
+	padding-left: 12px;
+	border-bottom: 9px solid #67dffa;
+	position: relative;
+}
+
+.add-header-title{
+	font-size: 25px;
+	font-family: 'fira_book';
+	color: #fff;
+}
+
+.add-header-close{
+	position: absolute;
+	right: 12px;
+	top: 8px;
+	background: url(../images/portfolio/close.png) center center no-repeat;
+}
+
+.add-close-link{
+	display: block;
+	color: transparent;
+	width: 25px;
+	height: 25px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.form-wrapp{
+	padding: 0 22px;
+}
+
+ .add-title-label{
+ 	font-family: 'fira_book';
+ 	font-size: 17px;
+ 	line-height: 21px;
+ 	color: #959aa8;
+ }
+
+ .project-input{
+ 	display: block;
+ 	width: 319px;
+ 	height: 39px;
+ 	border: 1px solid #48cbe8;
+ 	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background: #fff;
+	color: #727272;
+ 	margin-bottom: 12px;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+ }
+
+::-webkit-input-placeholder {color:#48cbe8; font-size: 13px;}
+::-moz-placeholder          {color:#48cbe8; font-size: 13px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#48cbe8; font-size: 13px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#48cbe8; font-size: 13px;}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+.project-input-img{
+	width: 0;
+	height: 0;
+	position: absolute;
+	overflow: hidden;
+}
+
+.project-input-file{
+	position: relative;
+	padding-right: 60px;
+	white-space: nowrap;
+}
+
+.project-file-name{
+	font-size: 13px;
+	line-height: 39px;
+	color: #48cbe8;
+	display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.form-file-img{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 39px;
+    width: 50px;
+    cursor: pointer;
+    background: #48cbe8;
+    -webkit-background-image: linear-gradient(to top, #48cbe8 0%, #0e8fac 100%);
+    background-image: linear-gradient(to top, #48cbe8 0%, #0e8fac 100%);
+    -webkit-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    transition: background 0.5s;
+}
+
+.form-file-img:hover{
+	background: #098ca9;
+	-webkit-background-image: linear-gradient(to top, #0e8fac 0%, #066b81 100%);
+    background-image: linear-gradient(to top, #0e8fac 0%, #066b81 100%);
+}
+
+.add-file-img{
+	position: absolute;
+	top: 6px;
+	left: 9px;
+}
+
+ .project-textarea{
+ 	height: 109px;
+ 	resize: none;
+ 	padding-top: 8px;
+ }
+
+ .add-project-submit{
+ 	text-align: center;
+ 	margin-bottom: 24px;
+ }
+
+ .add-submit-btn{
+ 	width: 140px;
+ 	height: 32px;
+ 	background: #48cbe8;
+ 	border: none;
+ 	border-bottom: 2px solid #3ba8c0;
+ 	-webkit-border-radius: 4px;
+ 	border-radius: 4px;
+ 	color: #fff;
+ 	font-family: 'fira_book';
+ 	font-size: 19px;
+ 	line-height: 23px;
+ }
+
+ .add-submit-btn:hover{
+ 	background: #3ba8c0;
+ 	border-bottom: 2px solid #48cbe8;
+ }
