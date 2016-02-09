@@ -1,17 +1,3 @@
- 
-/*===== bpopup =====*/
- $('#show-popup').on('click', function(e) {
-        e.preventDefault();
-$('#add-project').bPopup({
-       modalClose: false,
-       opacity: 0.6,
-       positionStyle: 'fixed',
-       transition: 'slideDown',
-       speed: 500
-    });
- });
-/*===== end bpopup =====*/
-
 
 
 /*===== input file name =====*/

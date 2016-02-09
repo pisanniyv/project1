@@ -6,7 +6,8 @@
     "modernizr": "3.1.0",
     "html5shiv": "~3.7.3",
     "placeholder.js": "*",
-    "bPopup": "bpopup#~0.11.0"
+    "bPopup": "bpopup#~0.11.0",
+    "qtip2": "~2.2.1"
   },
   "devDependencies": {
     "html5shiv": "~3.7.3"

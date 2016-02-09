@@ -11,6 +11,7 @@
 	<meta name="author" content="">
 	<!-- css -->
 	<link rel="stylesheet" href="../bower/normalize-css/normalize.css">
+	<link rel="stylesheet" href="../bower/qtip2/jquery.qtip.css">
 	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/portfolio.css">
 	<link rel="stylesheet" href="../css/popup.css">
@@ -229,7 +230,7 @@
 									<label for="name-project" class="add-title-label">
 										Название проекта
 									</label>
-									<input type="text" id="name-project" class="project-input" placeholder="Введите название">
+									<input type="text" id="name-project" class="project-input" placeholder="Введите название" qtip-content="Введите назвние">
 								</div>
 								<div class="add-project-content">
 									<label for="img-project" class="add-title-label">
@@ -242,20 +243,20 @@
 										<span class="form-file-img">
 											<img src="../images/portfolio/form-file-img.png" alt="Загрузить файл" class="add-file-img">
 										</span>
-										<input type="file" id="img-project" class="project-input-img" placeholder="Загрузите изображение" onchange="getName(this.value);">	
+										<input type="file" id="img-project" class="project-input-img" placeholder="Загрузите изображение" onchange="getName(this.value);" qtip-content="Загрузите изображение">	
 									</label>
 								</div>
 								<div class="add-project-content">
 									<label for="add-url-link" class="add-title-label">
 										URL проекта
 									</label>
-									<input type="text" id="add-url-link" class="project-input" placeholder="Добавьте ссылку">
+									<input type="text" id="add-url-link" class="project-input" placeholder="Добавьте ссылку" qtip-content="Введите URL">
 								</div>
 								<div class="add-project-content">
 									<label for="add-textarea" class="add-title-label">
 										Описание
 									</label>
-									<textarea name="" id="add-textarea" class="project-input project-textarea" placeholder="Пара слов о вашем проекте"></textarea>
+									<textarea name="" id="add-textarea" class="project-input project-textarea" placeholder="Пара слов о вашем проекте" qtip-content="Введите описание"></textarea>
 								</div>
 								<div class="add-project-submit">
 									<input type="submit" value="Добавить" class="add-submit-btn">
@@ -280,20 +281,16 @@
 	</footer>
 	
 
-
-
-
-
-
-
-
-
-
 <!-- ========= js script ========= -->
 <script src="../bower/jquery/jquery.min.js"></script>
+<script src="../bower/qtip2/jquery.qtip.js"></script>
 <script src="../bower/placeholder.js/js/jquery.placeholder.js"></script>
 <script src="../bower/bPopup/jquery.bpopup.min.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/modalpopup.js"></script>
+<script src="../js/validform.js"></script>
+<script src="../js/add-project.js"></script>
+
 
 </body>
 </html>

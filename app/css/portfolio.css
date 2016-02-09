@@ -129,3 +129,9 @@
 	color: #67bccf;
 	font-style: normal;
 }
+
+/* ======= style tooltips ======= */
+.has-error{
+	border: 1px solid #f97e76;
+	background: #fad2d1;
+}

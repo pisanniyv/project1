@@ -142,3 +142,8 @@
 .button-reset:hover{
 	background: #66788a;
 }
+
+.has-error{
+	border: 1px solid #f97e76;
+	background: #fad2d1;
+}

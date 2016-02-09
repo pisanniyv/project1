@@ -11,6 +11,7 @@
 	<meta name="author" content="">
 	<!-- css -->
 	<link rel="stylesheet" href="../bower/normalize-css/normalize.css">
+	<link rel="stylesheet" href="../bower/qtip2/jquery.qtip.css">
 	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/feedback.css">
 	<link rel="stylesheet" href="../css/sprite-icon.css">
@@ -125,7 +126,7 @@
 							</div>
 						</div>
 						<div class="section-form-wrapp">
-							<form action="/" method="get" class="form-feedback">
+							<form action="/" method="get" id="feedback-contact" class="form-feedback">
 								<div class="section-form-block clearfix">
 									<div class="section-form-input left">
 										<div class="section-block-title">
@@ -134,7 +135,7 @@
 											</label>
 										</div>
 										<div class="section-input-area">
-											<input type="text" class="input-area" id="input-area-name" placeholder="Как к вам обращаться">
+											<input type="text" class="input-area" id="input-area-name" placeholder="Как к вам обращаться" qtip-content="Вы не ввели имя">
 										</div>
 									</div>
 									<div class="section-form-input right">
@@ -144,7 +145,7 @@
 											</label>
 										</div>
 										<div class="section-input-area">
-											<input type="email" class="input-area" id="input-area-mail" placeholder="Куда мне писать">
+											<input type="email" class="input-area" id="input-area-mail" placeholder="Куда мне писать" qtip-position="right" qtip-content="Введите Ваш E-mail">
 										</div>
 									</div>
 								</div>
@@ -154,7 +155,7 @@
 											Сообщение
 										</label>
 									</div>
-									<textarea class="textarea-block" name="" id="textarea-block" placeholder="Кратко в чем суть"></textarea>
+									<textarea class="textarea-block" name="" id="textarea-block" placeholder="Кратко в чем суть" qtip-content="Введите сообщение"></textarea>
 								</div>
 								<div class="section-form-block clearfix">
 									<div class="section-block-title">
@@ -164,7 +165,7 @@
 										
 									</div>
 									<div class="section-input-area captcha-enter">
-										<input type="text" class="input-area input-captcha" id="input-captcha" placeholder="Введите код на картинке">
+										<input type="text" class="input-area input-captcha" id="input-captcha" placeholder="Введите код на картинке" qtip-position="right" qtip-content="Вы ничего не ввели">
 									</div>
 								</div>
 								<div class="section-form-button clearfix">
@@ -200,6 +201,9 @@
 <script src="../bower/jquery/jquery.js"></script>
 <script src="../bower/placeholder.js/js/jquery.placeholder.js"></script>
 <script src="../js/main.js"></script>
+<script src="../bower/qtip2/jquery.qtip.js"></script>
+<script src="../js/feedback-form.js"></script>
+<script src="../js/validform.js"></script>
 
 </body>
 </html>
